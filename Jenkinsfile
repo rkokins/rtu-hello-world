@@ -7,5 +7,10 @@ pipeline {
                 echo 'Hello World'
             }
         }
+        stage('List all files'){
+            steps {
+                echo 'Te noteikti ir failu list'
+            }
+        }
     }
 }
