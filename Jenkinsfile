@@ -9,7 +9,7 @@ pipeline {
         }
         stage('List all files'){
             steps {
-                echo 'Te noteikti ir failu list'
+                bat "node --version"
             }
         }
     }
